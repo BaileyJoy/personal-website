@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #E8CEBF;
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+header {
+    display: absolute;
+    width: 100vw;
+    height: 100%;
+    background-color: #FDF8F5;
+    padding-bottom: 1rem;
+  }
+
+  #navbar {
+    margin-left: 33rem;
+  }
+  
+ul {
+    display: flex;
+  }
+
+li, a {
+    list-style: none;
+    text-decoration: none;
+    margin-right: 4rem;
+    color: black;
+    display: flex;
+    font-family: 'Playfair Display', serif;
+   }
+
+   li {
+       padding-top: 1rem;
+   }
+   .logo, img {
+    position: absolute;
+    left: 3.5rem;
+   }
+
+   .logo {
+    position: absolute;
+    width: 5rem;
+    height: 5rem;
+    display: flex;
+    align-items: flex-start;
+   }
+
+   #welcome-section {
+    position: relative;
+    height: 8rem;
+    width: 35rem;
+    top: 13em;
+    left: 10rem;
+   }
+
+.hello, h1 {
+    font-family: 'Aboreto', cursive;
+    word-spacing: .2em;
+    font-size: 2rem;
+    display: flex;
+    position:relative;
+    align-items:flex-start;
+    justify-content: center;
+    padding-bottom: .1em;
+    margin-bottom: .1em;
+   }
+
+.about-me p {
+    height: 5rem;
+    width: 35rem;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    font-family: 'Playfair Display', serif;
+    font-weight: bolder;
+    padding-top: .1em;
+    font-size: 1.3rem;
+   }
+  
+   .social-icons {
+       display: flex;
+       align-items: center;
+       justify-content: flex-end;
+       width: 100vw;
+       height: 2em;
+       position: absolute;
+       margin-top: 1rem;
+       font-size: 25px;
+  }
+.social-icons a {
+   margin-right: 3rem;
+}
+#img-container {
+    position: relative;
+    width: 100%;
+    height: 400px;
+}
+#personal-photo {
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+    position: absolute;
+    left: 50rem;
+    bottom: 5rem;
+    border: 10px dotted #DDAF94;
+    padding: .5rem;
+}
+  
+  
+  @media (max-width: 400px){
+  
+  }
